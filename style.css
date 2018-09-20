@@ -1,0 +1,131 @@
+body {
+  background-color: #222;
+}
+
+#canvas-game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  border: 1px solid white;
+  background-color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#canvas-game .alien {
+  position: absolute;
+  z-index: 100;
+  top: 75px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  background: url("../img/crab.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#canvas-game div[data-x="1"] {
+  left: 90px;
+}
+
+#canvas-game div[data-x="2"] {
+  left: 180px;
+}
+
+#canvas-game div[data-x="3"] {
+  left: 260px;
+}
+
+#canvas-game div[data-x="4"] {
+  left: 340px;
+}
+
+#canvas-game div[data-x="5"] {
+  left: 420px;
+}
+
+#canvas-game div[data-x="6"] {
+  left: 500px;
+}
+
+#canvas-game div[data-x="7"] {
+  left: 580px;
+}
+
+#canvas-game div[data-x="8"] {
+  left: 660px;
+}
+
+#canvas-game div[data-x="9"] {
+  left: 740px;
+}
+
+#canvas-game div[data-x="10"] {
+  left: 820px;
+}
+
+#canvas-game div[data-y="1"] {
+  top: 125px;
+}
+
+#canvas-game div[data-y="2"] {
+  top: 175px;
+}
+
+#canvas-game div[data-y="3"] {
+  top: 225px;
+}
+
+#canvas-game div[data-y="4"] {
+  top: 275px;
+}
+
+#canvas-game div[data-y="5"] {
+  top: 325px;
+}
+
+#canvas-game div[data-y="6"] {
+  top: 375px;
+}
+
+#canvas-game div[data-y="7"] {
+  top: 425px;
+}
+
+#canvas-game div[data-y="8"] {
+  top: 475px;
+}
+
+#canvas-game div[data-y="9"] {
+  top: 525px;
+}
+
+#canvas-game #ship {
+  position: absolute;
+  z-index: 99;
+  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 45px;
+  height: 45px;
+  background-image: url("../img/ship.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#canvas-game .laser {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/laser.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*# sourceMappingURL=style.css.map */
